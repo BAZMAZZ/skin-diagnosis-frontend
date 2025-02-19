@@ -58,7 +58,7 @@ const DiagnosisPage = () => {
     formData.append("image", selectedFile);
 
     try {
-      const response = await axios.post("https://skin-diagnosis-app-1.onrender.com//api/analyze-skin", formData, {
+      const response = await axios.post("https://skin-diagnosis-app-1.onrender.com/api/analyze-skin", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
