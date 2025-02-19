@@ -117,6 +117,7 @@ const DiagnosisPage = () => {
         type="file"
         accept="image/*"
         onChange={handleFileChange}
+        capture="user"
         className="block w-5/6 md:w-3/4 lg:w-1/2 text-lg font-medium text-gray-700 bg-white border border-gray-300 rounded-lg shadow-sm cursor-pointer p-3 mb-4"
       />
 
